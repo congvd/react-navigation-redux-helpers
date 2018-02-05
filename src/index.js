@@ -29,6 +29,7 @@ function createReactNavigationReduxMiddleware<State: {}>(
         lastState: navStateSelector(oldState),
       })
     );
+    return result;
   };
 }
 
